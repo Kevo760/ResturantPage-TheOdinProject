@@ -1,0 +1,138 @@
+body {
+    background: url('/src/images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 160px;
+    width: 100%;
+    background-color: hsl(0, 0%, 0%, .8);
+    color: white;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header button {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: inherit;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header button:hover {
+    border-bottom: white solid 2px;
+}
+
+.header-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+.home, .menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    width: 700px;
+    height: 600px;
+    margin: 220px auto;
+    background-color: hsl(0, 0%, 0%, .8);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.home img {
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.home p:first-child {
+    font-size: 34px;
+}
+
+.home p:nth-child(3),
+.home p:nth-child(4) {
+    font-size: 20px;
+}
+
+
+.menu {
+    height: 860px;
+    width: 700px;
+    padding: 16px;
+}
+
+.menu h1 {
+    margin-bottom: 40px;
+}
+
+.item-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.item {
+    width: 300px;
+    height: 350px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    gap: 10px;
+    transition: 1s;
+    transition: linear .2s;
+    z-index: 0;
+}
+
+.item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: linear .2s;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price-section {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
