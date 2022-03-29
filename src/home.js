@@ -28,4 +28,4 @@ function loadHome() {
 
 }
 
-export default loadHome;
+export {loadHome, createText}; 

@@ -1,3 +1,8 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     background: url('/src/images/bg.jpg');
     background-position: center;
@@ -12,6 +17,8 @@ body {
     padding: 0;
     margin: 0;
 }
+
+
 
 header {
     height: 160px;
@@ -54,7 +61,7 @@ header button:hover {
 
 
 
-.home, .menu {
+.home, .menu, .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,6 +74,9 @@ header button:hover {
     text-align: center;
     border-radius: 10px;
 }
+
+
+/* ========================== HOME ============================= */
 
 .home img {
     margin: 20px 0 20px 0;
@@ -83,6 +93,9 @@ header button:hover {
     font-size: 20px;
 }
 
+/* ========================== HOME ============================= */
+
+/* ========================== MENU ============================= */
 
 .menu {
     height: 860px;
@@ -136,3 +149,38 @@ header button:hover {
     justify-content: center;
     gap: 180px;
 }
+
+
+/* ========================== MENU ============================= */
+
+/* ========================== CONTACT ============================= */
+
+.contact {
+    padding: 16px;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+}
+
+iframe {
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+    border: none;
+    margin: 16px 0;
+}
+
+.direct-contact {
+    font-size: 20px;
+}
+
+.direct-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contact p {
+    margin-top: 16px;
+}
+
+/* ========================== CONTACT ============================= */
