@@ -68,6 +68,7 @@ return itemMenu;
 // Creates a menu load
 function loadMenu() {
     const content = document.querySelector('#content');
+    content.innerText = '';
     content.appendChild(createMenu());
 }
 

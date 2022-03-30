@@ -24,6 +24,7 @@ function createText(text) {
 
 function loadHome() {
     const content = document.querySelector('#content');
+    content.innerText = '';
     content.appendChild(createHome());
 
 }

@@ -53,11 +53,17 @@ header button:hover {
     border-bottom: white solid 2px;
 }
 
+.active {
+    border-bottom: white solid 2px;
+}
+
 .header-btns {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
+
+
 
 
 

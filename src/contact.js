@@ -39,6 +39,7 @@ function createLink(text, source) {
 
 function loadContact() {
     const content = document.querySelector('#content');
+    content.innerText = '';
     content.appendChild(createContact());
 };
 
